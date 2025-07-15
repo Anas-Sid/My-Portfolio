@@ -16,7 +16,7 @@ const HeroSection = () => {
       </div>
 
       {/* Hero Content */}
-      <div className="absolute md:relative z-20 flex w-full h-full px-6 md:px-16 justify-between items-center flex-col md:flex-row mt-[20px] md:mt-0 gap-8 md:gap-0">
+      <div className=" md:relative z-20 flex w-full h-full px-6 md:px-16 justify-between items-center flex-col md:flex-row mt-[20px] md:mt-0 gap-8 md:gap-0">
         {/* Text on top (mobile), left side (desktop) */}
         <div className="text-center md:text-left md:w-1/2 md:text-black md:mt-[-130px]">
           <h3 className="text-sm text-white md:text-lg md:text-gray-700">Hi, I am</h3>
