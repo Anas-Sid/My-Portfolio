@@ -1,17 +1,11 @@
 import React from 'react';
 import {
-  FaHtml5,
-  FaCss3Alt,
-  FaJs,
-  FaReact,
-  FaGitAlt,
-  FaFigma,
-  FaNodeJs,
-  
-  
+  FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaFigma, FaNodeJs,
 } from 'react-icons/fa';
-import { SiRedux, SiTypescript, SiFirebase, SiExpress } from 'react-icons/si';
-import { SiMongodb } from "react-icons/si";
+import {
+  SiRedux, SiTypescript, SiFirebase, SiExpress, SiMongodb,
+} from 'react-icons/si';
+
 const skills = [
   { icon: <FaHtml5 size={32} className="text-orange-600" />, label: 'HTML', link: 'https://developer.mozilla.org/en-US/docs/Web/HTML' },
   { icon: <FaCss3Alt size={32} className="text-blue-600" />, label: 'CSS', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS' },
@@ -27,23 +21,22 @@ const skills = [
   { icon: <FaFigma size={32} className="text-purple-500" />, label: 'Figma', link: 'https://www.figma.com/' },
 ];
 
-
 const Skills = () => {
   return (
-    <section id="skills" className="py-20 px-6 md:px-16 bg-gray-300 -m-12">
+    <section id="skills" className="py-20 px-6 md:px-16 bg-gray-300">
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold mb-4 text-black">Skills</h2>
         <p className="text-black">Technologies I work with</p>
       </div>
 
-      <div className="grid grid-cols-3 sm:grid-cols-3 ml-8 mr-8  md:grid-cols-6 gap-8 place-items-center md:ml-auto md:mr-auto">
+      <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-6 gap-6 place-items-center">
         {skills.map((skill, idx) => (
           <a
             key={idx}
             href={skill.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex flex-col items-center justify-center w-23 h-23 md:w-28 md:h-28 bg-gray-100 rounded-full shadow hover:scale-105 transition-all"
+            className="flex flex-col items-center justify-center w-24 h-24 md:w-28 md:h-28 bg-gray-100 rounded-full shadow hover:scale-105 transition-all"
           >
             {skill.icon}
             <p className="mt-2 text-sm font-medium">{skill.label}</p>
