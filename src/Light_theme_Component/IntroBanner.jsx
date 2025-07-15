@@ -2,9 +2,9 @@ import React from 'react';
 
 const IntroBanner = () => {
   return (
-    <section className="md:relative bg-[#0a0a0a] text-white py-16 px-6 md:px-16 md:overflow-hidden md:-mt-[150px]">
-      {/* Angled Background Effect */}
-      <div className="absolute top-0 left-0 w-full h-full bg-[#0a0a0a] md:bg-[#1a1a1a] transform -skew-y-3 z-0"></div>
+    <section className="md:relative bg-black text-white py-16 px-6 md:px-16 md:overflow-hidden md:-mt-[150px]">
+      {/* Angled Background Effect - Skew only on md and above */}
+      <div className="absolute top-0 left-0 w-full h-full bg-black md:bg-[#1a1a1a] md:transform md:-skew-y-3 z-0"></div>
 
       {/* Content on top of skew */}
       <div className="relative z-10 max-w-5xl mx-auto">
