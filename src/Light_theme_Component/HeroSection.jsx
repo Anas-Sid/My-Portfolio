@@ -12,7 +12,7 @@ const HeroSection = () => {
         <div className="w-1/2 bg-[#1a1a1a] clip-diagonal-right md:block hidden"></div>
 
         {/* Mobile background fallback */}
-        <div className="w-full h-[750px] md:h-full md:hidden absolute inset-0 bg-gradient-to-b from-[#f1f1f1] to-[#1a1a1a]" />
+        <div className="w-full h-[800px] md:h-full md:hidden absolute inset-0 bg-gradient-to-b from-[#f1f1f1] to-[#1a1a1a]" />
       </div>
 
       {/* Hero Content */}
@@ -45,7 +45,7 @@ const HeroSection = () => {
           <img
             src={profileImage}
             alt="Profile"
-            className="w-35 md:w-72 h-auto object-cover rounded-lg z-20 md:ml-30 md:mt-8"
+            className="w-60 md:w-72 h-auto object-cover rounded-lg z-20 md:ml-30 md:mt-8"
           />
         </div>
       </div>
