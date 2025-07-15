@@ -1,4 +1,4 @@
-;import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';// Add more images if available
 import Doctor_Appointment from '../assets/Doctor_Appointment.jpg';
 import Doc_ava from '../assets/Doctor_availability.jpg';
