@@ -19,15 +19,15 @@ const HeroSection = () => {
       <div className=" md:relative z-20 flex w-full px-6 md:px-16 justify-between items-center flex-col md:flex-row mt-[20px] md:mt-0 gap-8 md:gap-0"> 
         {/* Text on top (mobile), left side (desktop) */}
         <div className="text-center md:text-left md:w-1/2 md:text-black md:mt-[-130px]">
-          <h3 className="text-sm text-white md:text-lg md:text-gray-700">Hi, I am</h3>
-          <h1 className="text-3xl text-white md:text-black md:text-5xl font-bold mb-2">Anas Siddiqui</h1>
-          <p className="md:text-gray-600 text-white text-lg md:text-xl mb-4">Full Stack Developer</p>
+          <h3 className="text-sm text-black md:text-lg md:text-gray-700">Hi, I am</h3>
+          <h1 className="text-3xl text-black md:text-black md:text-5xl font-bold mb-2">Anas Siddiqui</h1>
+          <p className="md:text-gray-600 text-black text-lg md:text-xl mb-4">Full Stack Developer</p>
           <div className="flex justify-center md:justify-start gap-4 flex-wrap">
             <a href="https://github.com/Anas-Sid" target="_blank" rel="noopener noreferrer">
-              <FaGithub size={22} className="text-white md:text-gray-700 hover:text-black mt-1 md:mt-2" />
+              <FaGithub size={22} className="text-black md:text-gray-700 hover:text-black mt-1 md:mt-2" />
             </a>
             <a href="https://www.linkedin.com/in/anssiddiqui/" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin size={22} className="text-white md:text-gray-700 hover:text-black mt-1 md:mt-2" />
+              <FaLinkedin size={22} className="text-black md:text-gray-700 hover:text-black mt-1 md:mt-2" />
             </a>
             <a
               href="/assets/resume.pdf"
