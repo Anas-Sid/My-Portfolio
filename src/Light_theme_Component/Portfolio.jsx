@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 
 import crypto1 from '../assets/Crypto tracker .jpg';
 import project3 from '../assets/project 3.jpg';
-import doc_dash from '../assets/Doctors_Dashboard.jpg';
+import doc_dash from '../assets/Doctors_dashboard.jpg';
 import bakery from '../assets/Bakery main.jpg';
 import project5 from '../assets/project5.png';
 
@@ -54,13 +54,13 @@ const Portfolio = () => {
   };
 
   return (
-    <section id="projects" className="py-20 px-4 sm:px-2 md:px-12 bg-gray-300">
+    <section id="projects" className="py-8 px-4 sm:px-2  bg-gray-300">
       <div className="text-center mb-16">
         <h2 className="text-3xl font-bold mb-4">Featured Projects</h2>
         <p className="text-gray-800">Some of my best work, showcased cleanly.</p>
       </div>
 
-      <div className="bg-[#1a1a1a] text-white rounded-3xl w-full md:w-[1170px] mx-auto px-4 sm:px-6 md:px-12 py-10 flex flex-col gap-16 md:-ml-8">
+      <div className="bg-[#1a1a1a] text-white rounded-3xl w-full md:w-full mx-auto px-4 sm:px-6 md:px-12 py-10 flex flex-col gap-16 md:mr-6">
         {projects.map((project, index) => (
           <div
             key={index}
